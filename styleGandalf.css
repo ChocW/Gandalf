@@ -1,0 +1,49 @@
+.container .label{
+    position: relative;
+    width: 500px;
+} 
+.container .label img{
+    opacity: 0.5;
+}
+.container .label:hover img{
+    opacity: 1;
+}
+
+.container .label .encadre{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+    background-color: #E6E6FA;
+    width: 90%;
+    border-radius: 15px;
+}
+.container .label:hover .encadre{
+    visibility: hidden;
+}
+
+.container .label .encadre .reward{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container .label .encadre .reward strong{
+    color: orange;
+}
+.container .label .gandalf{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left: 35%;
+    color:white;
+    font-size: 40px;
+}
+.container .label:hover .gandalf{
+    position: absolute;
+    z-index: 1;
+    top:90%;
+    left: 40%;
+    color:white;
+    font-size: 25px;
+}
